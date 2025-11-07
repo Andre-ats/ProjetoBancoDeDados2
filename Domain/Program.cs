@@ -51,7 +51,7 @@ using Newtonsoft.Json.Converters;
 var builder = WebApplication.CreateBuilder(args);
 
 // 🧩 URLs para API
-builder.WebHost.UseUrls("https://0.0.0.0:7048;http://0.0.0.0:5288");
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 // 🧩 CORS liberado
 builder.Services.AddCors(opt =>
